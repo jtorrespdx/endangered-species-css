@@ -3,17 +3,48 @@
   padding: 0;
 }
 
-body, .map  {
-  background: url('../images/world_map.jpg') no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-}
-
-.masthead {
+header {
   position: relative;
   box-shadow: inset 0 0 40px rgba(111, 161, 196, 1);
   margin-top: 0;
+  padding:1%;
   text-align: center;
+}
+
+.map {
+  position: fixed;
+}
+.map img {
+  width: 100%;
+}
+
+
+#leapord {
+  position: relative;
+  top: 160px;
+  left: 990px;
+}
+
+#rhino {
+  position: relative;
+  top: 225px;
+  left: 750px;
+}
+
+#gorilla {
+  position: relative;
+  top: 120px;
+  left: 665px;
+}
+
+#turtle {
+  position: relative;
+  top: -90px;
+  left: 400px;
+}
+
+#cat {
+  position: relative;
+  top: 125px;
+  left: 400px;
 }
